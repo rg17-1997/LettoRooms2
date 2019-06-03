@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        tools:context=".Features">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="FEATURES"
+            android:textColor="#000000"
+            android:textSize="50sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:text="Features available in your room"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/ac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Air Conditioner (AC)"
+            android:textSize="20sp"
+            android:drawablePadding="16dp"
+            android:padding="10dp"
+            android:layout_marginTop="200dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/cooler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cooler"
+            android:textSize="20sp"
+            android:drawablePadding="16dp"
+            android:padding="10dp"
+            android:layout_marginTop="225dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/washingmachine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Washing Machine"
+            android:textSize="20sp"
+            android:drawablePadding="16dp"
+            android:padding="10dp"
+            android:layout_marginTop="250dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/watercooler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water Cooler"
+            android:textSize="20sp"
+            android:drawablePadding="16dp"
+            android:padding="10dp"
+            android:layout_marginTop="275dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/fridge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fridge"
+            android:textSize="20sp"
+            android:drawablePadding="16dp"
+            android:padding="10dp"
+            android:layout_marginTop="300dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/geyser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Geyser"
+            android:textSize="20sp"
+            android:drawablePadding="16dp"
+            android:padding="10dp"
+            android:layout_marginTop="325dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/wardrobe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wardrobe"
+            android:textSize="20sp"
+            android:drawablePadding="16dp"
+            android:padding="10dp"
+            android:layout_marginTop="350dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/bed_bedding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bed and Bedding"
+            android:textSize="20sp"
+            android:drawablePadding="16dp"
+            android:padding="10dp"
+            android:layout_marginTop="375dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/tables_chairs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tables and Chairs"
+            android:textSize="20sp"
+            android:drawablePadding="16dp"
+            android:padding="10dp"
+            android:layout_marginTop="400dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/parking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parking"
+            android:textSize="20sp"
+            android:drawablePadding="16dp"
+            android:padding="10dp"
+            android:layout_marginTop="425dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"/>
+
+        <EditText
+            android:id="@+id/other_features"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="450dp"
+            android:backgroundTint="#02FC0D"
+            android:drawablePadding="16dp"
+            android:hint="More features"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="500dp"
+            android:text="Additional information about room"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/pets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Landlord owns pets"
+            android:textSize="20sp"
+            android:drawablePadding="16dp"
+            android:padding="10dp"
+            android:layout_marginTop="550dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/garden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gaden is available"
+            android:textSize="20sp"
+            android:drawablePadding="16dp"
+            android:padding="10dp"
+            android:layout_marginTop="575dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"/>
+
+        <CheckBox
+            android:id="@+id/lift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lift is not present"
+            android:textSize="20sp"
+            android:drawablePadding="16dp"
+            android:padding="10dp"
+            android:layout_marginTop="600dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"/>
+
+        <EditText
+            android:id="@+id/other_additional_features"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="625dp"
+            android:backgroundTint="#02FC0D"
+            android:drawablePadding="16dp"
+            android:hint="Any other features"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/features_submit"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="700dp"
+            android:background="@drawable/roundbutton"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>
