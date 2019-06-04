@@ -114,7 +114,7 @@
             android:hint="Enter More Rules" />
 
         <Button
-            android:id="@+id/features_submit"
+            android:id="@+id/rules_submit"
             android:layout_width="236dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
